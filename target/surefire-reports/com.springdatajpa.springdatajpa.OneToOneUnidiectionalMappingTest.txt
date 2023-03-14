@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.springdatajpa.springdatajpa.OneToOneUnidiectionalMappingTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 18.009 s <<< FAILURE! - in com.springdatajpa.springdatajpa.OneToOneUnidiectionalMappingTest
+getOrderMethod  Time elapsed: 0.757 s  <<< ERROR!
+java.util.NoSuchElementException: No value present
+	at com.springdatajpa.springdatajpa.OneToOneUnidiectionalMappingTest.getOrderMethod(OneToOneUnidiectionalMappingTest.java:61)
+

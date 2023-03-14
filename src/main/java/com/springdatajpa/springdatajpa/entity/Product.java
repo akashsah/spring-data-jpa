@@ -11,13 +11,15 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.JoinTable;
+import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import jakarta.persistence.UniqueConstraint;
 import lombok.Data;
 import lombok.Setter;
 
 @Data
-@Setter
 @Entity
 @Table(name = "products",  uniqueConstraints = {
 		@UniqueConstraint(name = "sku_unique", columnNames = "stock_keeping_unit"),
@@ -39,5 +41,9 @@ public class Product {
 	private LocalDateTime dateCreated;
 	@UpdateTimestamp
 	private LocalDateTime lastupdated;
+        
+        @ManyToOne
+        @JoinColumn(name="category_id", referencedColumnName = "id")
+        private ProductCategory category;
 
 }

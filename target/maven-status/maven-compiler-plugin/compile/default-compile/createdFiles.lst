@@ -1,0 +1,10 @@
+com\springdatajpa\springdatajpa\controller\QuerryController.class
+com\springdatajpa\springdatajpa\SpringDataJpaApplication.class
+com\springdatajpa\springdatajpa\repository\QuerryMethodRepo.class
+com\springdatajpa\springdatajpa\entity\Product.class
+com\springdatajpa\springdatajpa\repository\ProductRepository.class
+com\springdatajpa\springdatajpa\entity\Order.class
+com\springdatajpa\springdatajpa\controller\QuerryMethodController.class
+com\springdatajpa\springdatajpa\entity\Address.class
+com\springdatajpa\springdatajpa\repository\QuerryRepo.class
+com\springdatajpa\springdatajpa\controller\TestController.class
